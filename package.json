@@ -1,0 +1,13 @@
+{
+    "name": "todo-list-mern",
+    "version": "1.0.0",
+    "description": "MERN Stack To-Do List & Scheduler",
+    "scripts": {
+        "server": "npm run dev --prefix server",
+        "client": "npm run dev --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}
